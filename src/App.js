@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './Style/style.css';
 import { DataFetch } from "./MyApi";
 
