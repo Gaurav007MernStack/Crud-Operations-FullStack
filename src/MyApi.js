@@ -143,13 +143,13 @@ export const MyApi = ()=>{
                     name="email"
                     onChange={(e)=>handleDataChange(e)}/>
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit">Add DataToDB</button>
             </form>
 
             <form onSubmit={(e)=>OnFormSubmit2(e)} className="main2form">
             <button type="submit" >Update</button>
             
-            <button onClick={fetchUsers} id="get">GET USERS</button>
+            <button onClick={fetchUsers} id="get">GET DATA</button>
             </form>
             <div className="infoParent">
                 <h2 className="infoTitle">Mongo DB Data:</h2>

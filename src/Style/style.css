@@ -90,7 +90,7 @@ input {
 
   #info{
       color: #0e62df;
-      text-shadow: 0 0 2px #000;
+      text-shadow: 1px 1px 2px #000;
       width: 100vw;
       height: 100vh;
       margin-right: 2%;
@@ -125,7 +125,8 @@ input {
     margin-bottom: 5%;
 }
 .infoHead p{
-    color: #8383d1;
+    color: #000;
+    text-shadow: 0 0 5px rgb(88, 4, 4);
 }
 
 .userBtn1,.userBtn2{
