@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+::placeholder {
+    color: rgb(107, 39, 39);
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: rgb(107, 39, 39);
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: rgb(107, 39, 39);
+  }
+.App {
+    text-align: center;
+  }
+.main{
+    background: #f7f7f7;
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    background: #a5a5a5;
+    font-size: 8rem;
+    color: red;
+    text-shadow: 0 0 10px #fff;
+    padding-block-end: 2%;
+}
+.form{
+    background: #fff;
+    background-image: url('https://s3.amazonaws.com/lintel-blogs-static-files/wp-content/uploads/2019/09/24111846/1dLaDL-lSN0iprzmOpmM7zQ.png');
+    background-repeat: no-repeat;
+    background-size: 115% 100%;
+    line-height: 1.5rem;
+    font-size: 2rem;
+    padding-top: 1%;
+}
+input {
+    outline: 0;
+    border-width: 0 0 2px ;
+    width: 40vw;
+    height: 5vh;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1%;
+    background: transparent;
+    color: rgb(19, 174, 221);
+  }
+  input:focus {
+    border-color: green;
+    box-shadow: 1px 1px 10px #0e62df;
+  }
+  
+  .form button{
+      background: #219ebc;
+      width: 20vw;
+      height: 8vh;
+      font-size: 2rem;
+      cursor: pointer;
+      border-top-left-radius: 20px;
+      outline: none;
+      border: none;
+      box-shadow: 0 0 5px rgb(228, 54, 41);
+      margin-top: 1%;
+  }
+  .form button:focus{
+    box-shadow: 1px 1px 10px rgb(228, 54, 41);
+  }
+  .infoParent{
+      font-size: 2rem;
+      background: #f7f7f7;
+      display: grid;
+      place-items: center;
+  }
+  .infoTitle{
+      color: #000;
+      text-shadow: 0 0 10px rgb(182, 7, 7);
+      text-decoration: underline;
+      margin-bottom: 5%;
+      padding-top: 2%;
+      font-size: 5rem;
+  }
+
+  #info{
+      color: #0e62df;
+      text-shadow: 0 0 2px #000;
+      width: 100vw;
+      height: 100vh;
+      margin-right: 2%;
+      font-size: 2.5rem;
+  }
+  .main2form{
+      background: #fff;
+  }
+  .main2form button{
+    background: #e85d04;
+    width: 15vw;
+    height: 8vh;
+    font-size: 2rem;
+    cursor: pointer;
+    border-top-left-radius: 20px;
+    outline: none;
+    border: none;
+    box-shadow: 0 0 5px rgb(228, 54, 41);
+    margin-top: 1%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+}
+#get{
+    background: #ef476f;
+}
+.main2form button:focus{
+  box-shadow: 1px 1px 10px rgb(228, 54, 41);
+}
+.infoHead{
+    box-shadow: 1px 1px 10px #0e62df;
+    width: 70vw;
+    margin-bottom: 5%;
+}
+.infoHead p{
+    color: #8383d1;
+}
+
+.userBtn1,.userBtn2{
+    font-size: 2rem;
+    box-shadow: 0 0 10px #000;
+    text-shadow: 0 0 5px rgb(228, 46, 46);
+    margin-right: 2%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    color: #fff;
+    padding: 5px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 10px;
+}
+.userBtn1{
+    background: greenyellow;
+}
+.userBtn1:focus,.userBtn2:focus{
+    box-shadow: 1px 1px 20px #000;
+}
+.userBtn2{
+    background: red;
+}
+
+/*Media query*/
+@media(max-width:500px){
+    .header{
+        font-size: 5rem;
+    }
+    .form button{
+        width: 65vw;
+    }
+    .main2form button{
+        width: 45vw;
+    }
+    .infoHead p {
+        font-size: 16px;
+    }
+    #info{
+        font-size: 15px;
+    }
+    .userBtn1, .userBtn2 {
+        font-size: 1rem;
+    }
+}
