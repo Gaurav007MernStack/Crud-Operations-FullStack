@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react';
 import axios from 'axios';
-export const DataFetch = ()=>{
+export const MyApi = ()=>{
     const[users,setUsers] = useState([]);
     const[id,setid] = useState({
         id: "",

@@ -1,10 +1,10 @@
 import './Style/style.css';
-import { DataFetch } from "./MyApi";
+import { MyApi } from "./MyApi";
 
 function App() {
   return (
     <div className="App">
-      <DataFetch />
+      <MyApi />
     </div>
   );
 }
